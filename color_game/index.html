@@ -1,0 +1,70 @@
+<!DOCTYPE html <html>
+
+<head>
+  <title>Practice</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <!-- Jumbotron -->
+  <div class="Jumbotron py-2 mb-0 d-flex justify-content-center">
+    <div class="container text-center my-1 p-4" id="head-container">
+      <h5 class="display-5 text-wrap">The Great Guessing Game</h5>
+      <h1 class="display-1 text-wrap" id="color-code-header">Example Color</h2>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse container" id="navbarSupportedContent">
+      <ul class="navbar-nav flex-fill d-flex justify-content-between">
+        <li class="nav-item d-flex">
+          <button class="btn" id="new-game-btn">New Game</button>
+        </li>
+        <li class="nav-item d-flex align-center">
+          <p id="correct-indicator" hidden>Correct!</p>
+        </li>
+        <li class="nav-item">
+          <div>
+            <button class="btn btn-outline-success" id="btn-easy">EASY</button>
+            <button class="btn btn-primary" id="btn-hard">HARD</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Section -->
+  <section class="container">
+    <div class="row justify-content-center">
+      <div class="square col-3 m-3 color-box" id="color-1"></div>
+      <div class="square col-3 m-3 color-box" id="color-2"></div>
+      <div class="square col-3 m-3 color-box" id="color-3"></div>
+      <div class="square col-3 m-3 color-box" id="color-4"></div>
+      <div class="square col-3 m-3 color-box" id="color-5"></div>
+      <div class="square col-3 m-3 color-box" id="color-6"></div>
+    </div>
+  </section>
+
+  <script src="Hello.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

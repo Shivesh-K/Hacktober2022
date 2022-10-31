@@ -1,0 +1,19 @@
+body, .Jumbotron, nav {
+    background: #e0e5ec;
+}
+
+.Jumbotron .container {
+    background: none;
+    border-radius: 10px;
+}
+
+.color-box {
+    border: 5px dashed grey;
+    border-radius: 8px;
+    height: 5cm;
+    transition-duration: 500ms;
+}
+
+.no-border {
+    border: none;
+}
